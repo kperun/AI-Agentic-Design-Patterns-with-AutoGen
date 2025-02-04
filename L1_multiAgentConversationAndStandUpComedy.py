@@ -7,6 +7,12 @@ print(OPENAI_API_KEY)
 llm_config = {"model": "gpt-3.5-turbo"}
 
 
+'''
+In this code example we show how two chatbots can interact with each other to generate specific results.
+The bots have a conversation over specific tasks and continue it until some terminal condition is reached. It is not 
+required that human interaction is involved here.
+'''
+
 def step_1():
     '''
     A simple reply generation without history.
